@@ -1,22 +1,36 @@
 #team
-    width: 1930px
-    height: 683px
-    background-color: #c6b5b5
-    h1
-        font-weight: 700
-        font-size: 55px
-    h3
-        font-size: 22px
+    background-color: #c0c0c020
+    .textbox
+
     .box
-        width: 234px
-        height: 241px
-        background-color: #1b1212
-        border-radius: 156px
-        display: flex
-        justify-content: space-evenly
-        align-items: center
         .imgbox
-            border-radius: 171px
-            width: 214px
-            height: 221px
-            margin: 12px 0px 0px 0px
+            width: 220px
+            border-radius: 50%
+            border: 8px solid #87818131
+        .textbox
+            text-align: center
+            margin: 15px 0
+        ul
+            display: flex
+            justify-content: center
+            li
+                margin: 10px
+                .icon
+                    display: flex
+                    justify-content: center
+                    align-items: center
+                    cursor: pointer
+                    
+    .textbox
+        p
+
+    @media screen and ( max-width: 576px)
+        .textbox
+
+    @media screen and ( max-width: 768px  )
+        .textbox
+            p
+                padding: 0
+        .box
+
+    @media screen and ( max-width: 992px )
