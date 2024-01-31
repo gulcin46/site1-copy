@@ -139,14 +139,40 @@ header .menu nav a:hover {
 #services .textbox {
   padding-bottom: 50px;
 }
+#services .textbox h1 {
+  font-weight: 700;
+  font-size: 50px;
+  margin: 10px;
+}
+#services .textbox h3 {
+  font-size: 20px;
+}
+#services .textbox h2 {
+  font-weight: 600;
+  font-size: 28px;
+  margin: 21px 0px 13px 1px;
+}
+#services .textbox h4 {
+  font-size: 18px;
+}
 #services .box {
   display: flex;
   justify-content: center;
 }
-#services .box .icon {
+#services .box .boxicon {
+  border: 60px solid #ffc800;
+  border-radius: 60px;
+  background-color: #ffc800;
+  width: 30px;
+  height: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+#services .box .boxicon i {
+  margin: 0px 10px;
+  color: #ffffff;
+  font-size: 50px;
 }
 @media screen and (max-width: 768px) {
   #services .textbox {
@@ -160,6 +186,15 @@ header .menu nav a:hover {
 #portfolio .textbox {
   padding-top: 40px;
   text-align: center;
+}
+#portfolio .textbox h1 {
+  font-size: 45px;
+  font-weight: 700;
+  margin: 63px 17px 4px 0px;
+}
+#portfolio .textbox h3 {
+  font-size: 25px;
+  margin: 23px 17px 23px 0px;
 }
 #portfolio .textbox h2 {
   font-size: 29px;
